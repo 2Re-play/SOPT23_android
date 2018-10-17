@@ -7,7 +7,7 @@
 # 구현할 목표
 
 <div>
-<img width="250"  src="./image/seminar02_workflow.png">
+<img width="800"  src="./image/seminar02_workflow.png">
 </div>
 
 ---
