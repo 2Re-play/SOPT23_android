@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homework">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="더보기"
+            android:textSize="10pt" />
+
+        <ImageView
+            android:id="@+id/iv_hw_act_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_settings_black_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_hw_act_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="9dp"
+            android:layout_toLeftOf="@+id/iv_hw_act_setting"
+            android:src="@drawable/ic_search_black_24dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <ImageView
+            android:id="@+id/iv_hw_act_titleImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/titleimage" />
+
+        <TextView
+            android:id="@+id/tv_hw_act_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/iv_hw_act_titleImage"
+            android:text="이재현"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_hw_act_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="40dp"
+            android:text="wogusduddnjs@gmail.com"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/tv_hw_act_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text="MY"
+            android:textSize="10pt" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="10dp"
+        android:background="#e0e0e0">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/kakaopay" />
+
+        <TextView
+            android:id="@+id/tv_hw_act_won"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="84dp"
+            android:text="37,995원"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/tv_hw_act_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:text="결제"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/tv_hw_act_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_toLeftOf="@+id/tv_hw_act_payment"
+            android:text="송금"
+            android:textSize="8pt" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_lens_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:text="선물하기"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="126dp"
+                android:text="헤어샵"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="215dp"
+                android:text="메이커스"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="306dp"
+                android:text="이모티콘"
+                android:textSize="4pt" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_lens_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="37dp"
+                android:text="파머"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="122dp"
+                android:text="쇼핑하기"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="218dp"
+                android:text="스타일"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="306dp"
+                android:text="주문하기"
+                android:textSize="4pt" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_local_florist_black_24dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="37dp"
+                android:text="게임"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="126dp"
+                android:text="페이지"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="222dp"
+                android:text="멜론"
+                android:textSize="4pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="302dp"
+                android:text="전체서비스"
+                android:textSize="4pt" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cafe" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_person_black_24dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_chat_black_24dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_ac_unit_black_24dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_more_horiz_black_24dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/ic_lens_black_24dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

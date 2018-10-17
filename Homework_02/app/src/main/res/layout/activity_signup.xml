@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="회원가입"
+                android:textSize="10pt" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="15dp"
+                android:text="ID"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_signup_act_id"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
+                android:hint="아이디" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:text="PW"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_signup_act_pw"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
+                android:hint="비밀번호" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <Button
+                android:id="@+id/btn_signup_act_complete"
+                android:layout_width="104dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="104dp"
+                android:text="complete" />
+
+            <Button
+                android:id="@+id/btn_signup_act_close"
+                android:layout_width="80dp"
+                android:layout_height="56dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="81dp"
+                android:text="close" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
